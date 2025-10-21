@@ -3,7 +3,7 @@ package br.edu.figsplanas;
 import java.util.Scanner;
 
 public class Circulo {
-	public double raio, area;
+	private double raio, area;
 	
 	public void recebeRaio() {
 		Scanner sc = new Scanner(System.in);

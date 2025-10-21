@@ -3,7 +3,7 @@ package br.edu.figsplanas;
 import java.util.Scanner;
 
 public class Hexagono {
-	public double area, lado; 
+	private double area, lado; 
 	
 	public void recebeLado() {
 		Scanner sc = new Scanner(System.in);

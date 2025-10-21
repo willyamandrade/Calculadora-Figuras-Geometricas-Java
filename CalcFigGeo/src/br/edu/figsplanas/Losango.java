@@ -3,7 +3,7 @@ package br.edu.figsplanas;
 import java.util.Scanner;
 
 public class Losango {
-	public double diamMaior, diamMenor, area;
+	private double diamMaior, diamMenor, area;
 	
 	public void recebeDiametroMaior() {
 		Scanner sc = new Scanner(System.in);

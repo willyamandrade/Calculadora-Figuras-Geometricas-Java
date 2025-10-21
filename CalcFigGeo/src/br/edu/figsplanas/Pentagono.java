@@ -3,7 +3,7 @@ package br.edu.figsplanas;
 import java.util.Scanner;
 
 public class Pentagono {
-	public double lado, apotema, area;
+	private double lado, apotema, area;
 	
 	public void recebeLado() {
 		Scanner sc = new Scanner(System.in);

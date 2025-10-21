@@ -3,7 +3,7 @@ package br.edu.figsplanas;
 import java.util.Scanner;
 
 public class Retangulo {
-	public double base, altura, area;
+	private double base, altura, area;
 	
 	public void recebeAltura() {
 		Scanner sc = new Scanner(System.in);

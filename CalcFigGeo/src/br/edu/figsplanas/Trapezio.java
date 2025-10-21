@@ -3,7 +3,7 @@ package br.edu.figsplanas;
 import java.util.Scanner;
 
 public class Trapezio {
-	public double baseMaior, baseMenor, altura, area;
+	private double baseMaior, baseMenor, altura, area;
 	
 	public void recebeBaseMaior() {
 		Scanner sc = new Scanner(System.in);

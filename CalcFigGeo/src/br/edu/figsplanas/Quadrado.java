@@ -3,7 +3,7 @@ package br.edu.figsplanas;
 import java.util.Scanner;
 
 public class Quadrado {
-	public double lado, area;
+	private double lado, area;
 	
 	public void recebeLado() {
 		Scanner sc = new Scanner(System.in);

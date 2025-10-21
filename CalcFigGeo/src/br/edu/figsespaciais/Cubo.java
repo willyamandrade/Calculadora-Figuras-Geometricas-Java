@@ -3,12 +3,16 @@ package br.edu.figsespaciais;
 import java.util.Scanner;
 
 public class Cubo {
-	public double a, areaSuperficie, volume;
+	private double a, areaSuperficie, volume;
 	
 	public void recebeLado() {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Digite o lado do cubo: ");
 		a = sc.nextDouble();
+	}
+	
+	public void recebeLado(double l) {
+		a = l;
 	}
 	
 	public void retornaLado() {
